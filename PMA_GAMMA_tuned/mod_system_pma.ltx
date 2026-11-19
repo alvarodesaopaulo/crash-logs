@@ -1,0 +1,20 @@
+; Experimental GAMMA PMA tuning based on comparison with original PMA Lua values.
+; Keep GAMMA's procedural_movement.script and movement-layer architecture.
+; Format: movement_layer_N = animation path, playback speed, blend power
+
+![hud_base]
+    strafe_aim_enabled = true
+
+![hud_movement_layers]
+    ; types: 0 = aim_walk, 1 = aim_crouch, 2 = crouch, 3 = walk,
+    ;        4 = run, 5 = sprint, 6 = aim_idle, 7 = idle
+    ; type = path, speed, power
+
+    movement_layer_0 = movement\walk.anm, 1.0, 0.2
+    movement_layer_1 = movement\walk.anm, 0.7, 0.2
+    movement_layer_2 = movement\walk.anm, 1.0, 0.3
+    movement_layer_3 = movement\walk.anm, 1.0, 0.5
+    movement_layer_4 = movement\walk.anm, 1.0, 0.6
+    movement_layer_5 = movement\sprint.anm, 0.8, 0.8
+    ; Aim-idle remains in the separate GAMMA LTX patch.
+    movement_layer_7 = movement\idle.anm, 0.5, 0.7
