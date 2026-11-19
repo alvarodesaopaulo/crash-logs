@@ -1,0 +1,136 @@
+--[[
+	Inventory disassemble keybind (hold+hover).
+	All stacks: every item in the cell.
+	One stack: only the hovered row. Picker: both stay on that row.
+	Non-disassemble-able items are skipped.
+]]
+
+local CONFIG = _G.dogma_input_inventory_controls_conf
+local MOD_ID = CONFIG.MOD_ID
+
+local ALLOWED_BAGS = {
+	actor_bag = true,
+	actor_equ = true,
+	actor_belt = true,
+	npc_bag = true,
+	picker = true,
+}
+
+local key_all = nil
+local mod_all = 0
+local key_one = nil
+local mod_one = 0
+local bind_all = nil
+local bind_one = nil
+
+local function log(msg)
+	if dogma.log.logging() then
+		dogma.log.log(MOD_ID, tostring(msg))
+	end
+end
+
+local function on_option_change()
+	key_all = dogma.mcm.key(MOD_ID, "key_disa")
+	mod_all = dogma.mcm.int(MOD_ID, "key_disa_modifier", 0)
+	key_one = dogma.mcm.key(MOD_ID, "key_disa_one")
+	mod_one = dogma.mcm.int(MOD_ID, "key_disa_one_modifier", 0)
+	if bind_all then
+		_G.dogma_inv_hover.reset(bind_all)
+	end
+	if bind_one then
+		_G.dogma_inv_hover.reset(bind_one)
+	end
+end
+
+local function inv_mode_ok(gui)
+	local mode = gui and gui.mode
+	return mode == "inventory" or mode == "loot"
+end
+
+local function key_all_down()
+	return key_all and dogma.input.is_key_down(key_all) and dogma.input.is_mod_down(mod_all)
+end
+
+local function key_one_down()
+	return key_one and dogma.input.is_key_down(key_one) and dogma.input.is_mod_down(mod_one)
+end
+
+local function is_equipped(obj)
+	if not (obj and db.actor and _G.SCANNED_SLOTS) then
+		return false
+	end
+	local id = obj:id()
+	local n = 0
+	for _ in pairs(_G.SCANNED_SLOTS) do
+		n = n + 1
+	end
+	for i = 0, n + 1 do
+		local slot_obj = db.actor:item_in_slot(i)
+		if slot_obj and slot_obj:id() == id then
+			return true
+		end
+	end
+	return false
+end
+
+local try_do_disa = function()
+	local g = ui_inventory and ui_inventory.GUI
+	if g and g.mode == "loot" and g.On_Item_Update then
+		g:On_Item_Update()
+	end
+	return true
+end
+
+local function do_disa(gui, obj)
+	if is_equipped(obj) then
+		return
+	end
+	if not (item_parts and item_parts.menu_disassembly and item_parts.func_disassembly) then
+		return
+	end
+	if not item_parts.menu_disassembly(obj) then
+		return
+	end
+	local id = obj:id()
+	item_parts.func_disassembly(obj)
+	-- Give-parts is a CreateTimeEvent (0s / 3s). Same-time events have
+	-- undefined order, so wait a tick after that delay before rebuilding loot.
+	if gui and gui.mode == "loot" then
+		local delay = actor_effects.is_animations_on() and 3.05 or 0.05
+		CreateTimeEvent("dogma_disa_loot", id, delay, try_do_disa)
+	end
+end
+
+local function fire(whole)
+	return function(gui, obj, bag)
+		local items = _G.dogma_inv_hover.stack_items(gui, obj, bag, whole)
+		for i = 1, #items do
+			do_disa(gui, items[i])
+		end
+	end
+end
+
+function on_game_start()
+	dogma.load(MOD_ID)
+	RegisterScriptCallback("on_option_change", on_option_change)
+	on_option_change()
+	bind_all = _G.dogma_inv_hover.register({
+		family = "disa",
+		whole = true,
+		key_down = key_all_down,
+		mode_ok = inv_mode_ok,
+		bags = ALLOWED_BAGS,
+		still = true,
+		fire = fire(true),
+	})
+	bind_one = _G.dogma_inv_hover.register({
+		family = "disa",
+		whole = false,
+		key_down = key_one_down,
+		mode_ok = inv_mode_ok,
+		bags = ALLOWED_BAGS,
+		still = true,
+		fire = fire(false),
+	})
+	log("disassemble keys ready")
+end

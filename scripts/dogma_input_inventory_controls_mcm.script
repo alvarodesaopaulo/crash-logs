@@ -1,0 +1,121 @@
+-- input/inventory_controls conf
+-- Drop / disassemble / strip inventory keybinds and related options.
+
+_G.dogma_input_inventory_controls_conf = {
+	MOD_ID = "dogma/input/inventory_controls",
+	DEFAULTS = {
+		key_disa = -1,
+		key_disa_modifier = 0,
+		key_disa_one = -1,
+		key_disa_one_modifier = 0,
+		pda_grants_stash_coords = true,
+		tools_enabled = true,
+		-- DIK_LSHIFT
+		key_drop = 42,
+		key_drop_modifier = 0,
+		key_drop_one = -1,
+		key_drop_one_modifier = 0,
+		-- DIK_LSHIFT
+		key_transfer = 42,
+		key_transfer_modifier = 0,
+		key_transfer_one = -1,
+		key_transfer_one_modifier = 0,
+		key = -1,
+		key_modifier = 0,
+		key_one = -1,
+		key_one_modifier = 0,
+		intercept_disassemble = true,
+	},
+	loaded = {},
+}
+
+function _G.dogma_input_inventory_controls_conf:ensure_dogma()
+	dogma.load(self.MOD_ID)
+	return dogma
+end
+
+function on_mcm_load(options)
+	local CONFIG = _G.dogma_input_inventory_controls_conf
+	local kb_mod = (ui_mcm and ui_mcm.kb_mod_radio) or "radio_h"
+	local mod_content = {
+		{ 0, "mcm_kb_mod_none" },
+		{ 1, "mcm_kb_mod_shift" },
+		{ 2, "mcm_kb_mod_ctrl" },
+		{ 3, "mcm_kb_mod_alt" },
+	}
+
+	local function kb_bind(id, hint)
+		return {
+			id = id,
+			type = "key_bind",
+			val = 2,
+			def = CONFIG.DEFAULTS[id],
+			hint = hint,
+		}
+	end
+
+	local function kb_modifier(id)
+		return {
+			id = id,
+			type = kb_mod,
+			val = 2,
+			def = CONFIG.DEFAULTS[id],
+			hint = "mcm_kb_modifier",
+			content = mod_content,
+		}
+	end
+
+	dogma_mcm.attach(options, "input", "ui_mcm_menu_dogma_input", {
+		id = "inventory_controls",
+		sh = true,
+		text = "ui_mcm_menu_dogma_input_inventory_controls",
+		gr = dogma_mcm.with_header({
+			{
+				id = "page_description",
+				type = "desc",
+				text = "ui_mcm_dogma_input_inventory_controls_page_description",
+			},
+			{ id = "section_transfer", type = "line" },
+			kb_bind("key_transfer", "dogma_input_inventory_controls_key_transfer"),
+			kb_modifier("key_transfer_modifier"),
+			kb_bind("key_transfer_one", "dogma_input_inventory_controls_key_transfer_one"),
+			kb_modifier("key_transfer_one_modifier"),
+			{ id = "section_drop", type = "line" },
+			kb_bind("key_drop", "dogma_input_inventory_controls_key_drop"),
+			kb_modifier("key_drop_modifier"),
+			kb_bind("key_drop_one", "dogma_input_inventory_controls_key_drop_one"),
+			kb_modifier("key_drop_one_modifier"),
+			{ id = "section_disassemble", type = "line" },
+			kb_bind("key_disa", "dogma_input_inventory_controls_key_disa"),
+			kb_modifier("key_disa_modifier"),
+			kb_bind("key_disa_one", "dogma_input_inventory_controls_key_disa_one"),
+			kb_modifier("key_disa_one_modifier"),
+			{
+				id = "pda_grants_stash_coords",
+				type = "check",
+				val = 1,
+				def = CONFIG.DEFAULTS.pda_grants_stash_coords,
+				hint = "dogma_input_inventory_controls_pda_grants_stash_coords",
+			},
+			{
+				id = "tools_enabled",
+				type = "check",
+				val = 1,
+				def = CONFIG.DEFAULTS.tools_enabled,
+				hint = "dogma_input_inventory_controls_tools_enabled",
+			},
+			{ id = "section_stripping", type = "line" },
+			kb_bind("key", "dogma_input_inventory_controls_key_strip"),
+			kb_modifier("key_modifier"),
+			kb_bind("key_one", "dogma_input_inventory_controls_key_strip_one"),
+			kb_modifier("key_one_modifier"),
+			{
+				id = "intercept_disassemble",
+				type = "check",
+				val = 1,
+				def = CONFIG.DEFAULTS.intercept_disassemble,
+				hint = "dogma_input_inventory_controls_intercept_disassemble",
+			},
+		}),
+	})
+end
