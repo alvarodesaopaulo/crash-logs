@@ -49,11 +49,7 @@
 -Retrofit_separator
 -F4SE - Equipment Condition Classic
 +Craftable Armor Size
--Classic Fallout Ambient Music New California Flashbacks - High Quality Classic Fallout Music
 +F4SE - CompanionControlBooster
--Digital Nightmare Main Music Battle Pack Better
--Digital Nightmare Main Music Battle Pack
--Digital Nightmare Main Music
 -F4SE - CompanionControlBooster (New)
 +Creation Club - Command Override
 -Creation Club - FEVer Dreams
@@ -82,7 +78,6 @@
 -Creation Club - Vault 111 Canteen
 -Condition System Framework
 -Fallout 76 Sountrack
--Fallout 76 Soundtrack Files
 +Fallout 76 Megapack
 -The Marshland DLC - For Swampmonsters and Toxic People
 -Survival Mode Overhaul Diseases - PipboyTabs
@@ -93,24 +88,19 @@
 -Hardcore bandage system
 -Legendary Modification
 -Automatron EyeBot Companions
-+Hi-Fi Sounds Music All in One
-+Hi-Fi Sounds Effects All in One
 -Protected Unique Brahmin
 -Creation Club - Inorganic Solution
 +Companion Command and Tactics
 -Creation Club - Cozy Camping
 -Creation Club - Classic Miscellaneous Items
--Companion Radio
 -CompanionControlBooster (New)
 -Remove Rads in Survival Fix (Mutant Hound Chops etc)
-+Sound Condition Fix
 +Creation Club - Revenge of the Van Graffs
 +Creation Club - RadShield
 -Creation Club - Irradiated Reasons to Explore
 -Creation Club - Commonwealth Contracts
 -CompanionControlBooster
 -No Tunneling Molerats or Rad Scorpions - RobCo Patcher
-+Hi-Fi Sounds Voices All in One
 -Faded Glory - A Post-Apocalyptic Soundscape Music
 -Start On Save - Autoload Game
 -Nothing Fancy Hot Showers
@@ -132,9 +122,7 @@
 +Creation Club - Become a Bounty Hunter
 +Creation Club - Ghoulification 1.2.3
 -Realistic Survival Damage
--Realistic Reverb and Ambience Overhaul - VR and FP Audio
 -Cough
--Enhanced Sounds Overhaul Audio
 -Companion Whistle
 +Inclusive Inspirational Companions
 +F4SE Hostile NPC Respawn Fix - Garden of Eden SE (new)
@@ -143,7 +131,6 @@
 -AI - Vulture - Looting Takes Time And Actions Make Sound
 +Crashing Vertibirds Don't Aim for the Player
 -Disable Companion Collision
-+Throwable Sound FX
 +Decreased Automatron Bullshit Encounters Rust Devil Refux
 +SKK Combat Stalkers (nexus edition)
 +Wild Plants Grow Back - Wild Plant Respawn Fix
@@ -151,31 +138,21 @@
 +Uncapped Level Scaling and Encounter Zones
 +Todd Howard Cardboard Cutout
 -The Collector's Guides
--Synth Combine voice modulator
 -Stop Burning Cash - No More Scrapable Pre-War Money
--Sneak and Critical Attack Sound Restored
--Reverb and Ambiance Overhaul Audio
--Radium - A Music Mod
 -Quicker Cell Respawn - 3 days
 +Quicker Cell Respawn - 10 days
 +Quick Player Respec by SKK
 +Nuka-World Monorail Tram Fast Travel
 +NPCs Travel - MCM Settings Menu
 +NPCs Travel
-+Not Great Not Terrible - Scarier Geiger Counter Sounds
--Death voices no more screaming sound
-+No more cash register sound when XP gain
--No Combat Music - ESL Version
 -New Equipment Overhaul (NEO) - old
 +New Equipment Overhaul (NEO)
--More Robot Voices for Automatron
 -Mindwipe - Perks and SPECIAL Respec Chem
 +Level Cap
 +Let Me Use That
 -Legendary Effect Overhaul (LEO) - Legendary Modifications And More
 -JRavens Extra Tracks Radio
 +Journal of the Sole Survivor - Personal Journal
--Jezebel Companion and Robobrain Voice Module
 -Ish's Respec Mod
 -Horrific Feral Ghouls
 -FO76 Bear Arms
@@ -183,7 +160,6 @@
 -Fix Permanent Food Buffs Effects Magic
 -Fallout 76 Vending Station TheAfterlife
 -Fallout 76 Robot Paintjobs
-+Fallout 76 Pickup Sounds
 -Fallout 76 Megapack New
 -Fallout 76 Guild of Antiquities
 -Fallout 76 Bunker Builders
@@ -196,18 +172,9 @@
 +Essential Unique NPCs and Pets
 -AI - Enemy Accuracy Rebalanced
 +Encounter Zone Recalculation (Continuous Level Scaling)
--Diamond City Radio Extended
 -Damage Deadeye
 -Companion Stealth Distance Fix (No Free Hugs) - Now with No Dogmeat in Crosshairs
--Coda - 60 New Pieces For Classical Radio
 -Classic Vertibird Replacer
--Classic Fallout Ambient Music old
--Classic Fallout Ambient Music
--Bratatatatat Vanilla (NPC) Sound
--Bratatatatat Vanilla (Handguns) Sound Bonus
--Bratatatatat Vanilla (Handguns) Sound
--Bratatatatat Vanilla (AR and SMG) Sound
-+Ambient Wasteland - Fallout 4 Edition Audio
 -Expansion_separator
 +Settlement Management Software
 +Rebuild Sanctuary (no ruined house repair)
@@ -270,7 +237,6 @@
 -Rebuild AIO - Sanctuary - Scrap Ruined Houses previs
 -Rebuild AIO - Oberland - Alt Switching Station previs
 +Plant Me
--Louder Workshop Radio
 +Just Some Terminals Settlement
 +Graf's Security Fences
 -Workshop Highlight Fix
@@ -327,14 +293,12 @@
 +DegenerateDak - The Scrap Revolver Weapon
 +DegenerateDak - Makeshift Scout Rifle Weapon
 -Creation Club - Classic Weaponry Lever Action Shotgun
-+Lasery Laser Weapon Sounds Audio
 +Better Laser Energy Colors
 +Havok Aware Bullet Counted Reload (HaBCR)
 +Creation Club - B21 Plasmacaster 1.2
 -Recoil Overhaul
 -Vintage Weapons Bundle - M1 Carbine - M1 Garand - Sten - Welrod
 -RB - 13 - Handmade Blaster
-+Fallout 4 Resound Project - Guns - fire rate fix
 -The Lavish LaserMusket
 +Creation Club - The Plasma Musket RC4
 +(OLD) Ammunition And Explosive Manufacturing
@@ -383,7 +347,6 @@
 -Laser RCW - Fallout New Vegas - no Munition Patch
 +Nuka-Grenade Crafting
 -Makeshift Grenade Launcher Grenade Types and Scrounger Integration (old)
-+Gamma Gun - No Idle Sound
 -Laser RCW - Fallout New Vegas
 -DegenerateDak - Bullpup Scout Rifle (Keltec M43 Prototype)
 -Spec Ops Pistol - USP - Mark 23 - Crowbar
@@ -420,14 +383,11 @@
 +Revised Melee Blood
 -Remington Model 870 Shotgun
 +Realistic Bullet Cracks
--Radium Rifle Suppressed Sound Fix
 -Photon Disruptor
--Persistent Volume Sliders Audio
 +MyWeapons
 +MyHolsters
 -Munitions - An Ammo Expansion
 -Mk 41 Gyrojet Heavy Machine Gun
--Manwell Rifle Sound Replacer
 -Manwell Rifle Retex
 -Less Weapon Zoom
 -LAER (Laser Assisted Electrical Rifle)
@@ -460,17 +420,69 @@
 -Classic Super Sledge
 -Bullet Counted Reload System (BCR) - Lever Action Rifle
 -Bullet Counted Reload System (BCR)
--Bratatatatat Vanilla (Rifle and Shotgun) Sound Bonus
--Bratatatatat Vanilla (Rifle and Shotgun) Sound
 +Better Casing Ejection
 +Better Armory Mod (BAM) - Weapon Racks and More
 -Better Ammo Boxes
 -Ballistic Weave All
 -Weapon_separator
+-Muffled Voice Helmets
++Resynched Power Armor Handling Sounds
++Classic UI HUD Sounds
+-Digital Nightmare Main Music Far Harbor
++Footstep Material Fix - F4SE
+-F4SE - Acoustic Occlusion
++VoiceFX Framework
+-Fallout 4 Resound Project - Guns
 +Liquid Mud - Footsteps
++Centered Player Footsteps
++Project Reality Footsteps FO4 Expansion
++Project Reality Footsteps FO4
++Quiet Automatron Footsteps and Locomotion Sounds Robot
++Lasery Laser Weapon Sounds Audio
++Fallout 4 Resound Project - Guns - fire rate fix
++Gamma Gun - No Idle Sound
+-Radium Rifle Suppressed Sound Fix
+-Persistent Volume Sliders Audio
+-Manwell Rifle Sound Replacer
+-Bratatatatat Vanilla (Rifle and Shotgun) Sound Bonus
+-Bratatatatat Vanilla (Rifle and Shotgun) Sound
+-Louder Workshop Radio
+-Classic Fallout Ambient Music New California Flashbacks - High Quality Classic Fallout Music
+-Digital Nightmare Main Music Battle Pack Better
+-Digital Nightmare Main Music Battle Pack
+-Digital Nightmare Main Music
+-Fallout 76 Soundtrack Files
++Hi-Fi Sounds Music All in One
++Hi-Fi Sounds Effects All in One
+-Companion Radio
++Sound Condition Fix
++Hi-Fi Sounds Voices All in One
+-Realistic Reverb and Ambience Overhaul - VR and FP Audio
+-Enhanced Sounds Overhaul Audio
++Throwable Sound FX
+-Synth Combine voice modulator
+-Sneak and Critical Attack Sound Restored
+-Reverb and Ambiance Overhaul Audio
+-Radium - A Music Mod
++Not Great Not Terrible - Scarier Geiger Counter Sounds
+-Death voices no more screaming sound
++No more cash register sound when XP gain
+-No Combat Music - ESL Version
+-More Robot Voices for Automatron
+-Jezebel Companion and Robobrain Voice Module
++Fallout 76 Pickup Sounds
+-Diamond City Radio Extended
+-Coda - 60 New Pieces For Classical Radio
+-Classic Fallout Ambient Music old
+-Classic Fallout Ambient Music
+-Bratatatatat Vanilla (NPC) Sound
+-Bratatatatat Vanilla (Handguns) Sound Bonus
+-Bratatatatat Vanilla (Handguns) Sound
+-Bratatatatat Vanilla (AR and SMG) Sound
++Ambient Wasteland - Fallout 4 Edition Audio
+-Audio_separator
 -Idle Actions 1.6.3
 +Smooth HeadTracking 107784 2.4.1 2026
-+Centered Player Footsteps
 -F4SE - Dynamic Ragdoll System
 +F4SE - Actor Velocity Framework
 +F4SE - ZK's Fluid Movement
@@ -548,8 +560,6 @@
 -3rd person ADS style standalone Animations - Assault Rifles
 -3rd Person Animations - Sneak Idles and Shooting - Sneak Animations
 -3rd person ADS style standalone Animations - Pistols version
-+Project Reality Footsteps FO4 Expansion
-+Project Reality Footsteps FO4
 +Visible Weapons - 3rd Person Holster
 +Uneducated Shooter - QE Leaning and Gun Inertia (New)
 -Stop shaking in ADS
@@ -558,7 +568,6 @@
 -Simple Attack Reactions Animations
 -Reanimation Pack for Combat Shotgun and Rifle
 -Ragdoll Physics - More realistic ragdoll death physics and corpse collision
-+Quiet Automatron Footsteps and Locomotion Sounds Robot
 -Quick Draw 2.0 - Vanilla - faster weapon ready animation old
 +Quick Draw 2.0 - Vanilla - faster weapon ready animation
 +Passive Screen Shake - Disabled or Removed
@@ -596,7 +605,6 @@
 -F4SE - PBRF - Physically Based Rendering Framework
 -F4SE Sun Shadow Sync Fix
 +Hope ENB
--Digital Nightmare Main Music Far Harbor
 -F4SE - Dynamic Grass (flickers grass, major problem) LOD
 -More Clear Palette of Combat Armor
 -New Textures For Handmade Rifle (Nuka World AK)
@@ -610,17 +618,14 @@
 -F4SE - Hidden in the Shadows
 -F4SE - Screen Space Reflections (SSR) Fixes by Cobalt (10% performance cost)
 -F4SE - FAKE Active Ragdoll
-+Footstep Material Fix - F4SE
 +ZPs Interior Texture Pack BA2 109263 01 2026
 -F4SE - Stuck LOD Fix (results in weird popins)
 -F4SE - Smooth Terrain
 +F4SE - Rain Bug Fix
 +F4SE - Light Gobo Fix
 +F4SE - Black Landscape Fix LOD
--F4SE - Acoustic Occlusion
 -Fallout 4 Community Shaders - MEGA BETA
 -Dynamic Cubemap F4
-+VoiceFX Framework
 -Lighting Fixes (glass specular)
 +Darker Nights 1.12p1
 +Interior DALC Fix
@@ -778,7 +783,6 @@
 +RETEXTURE - Fallout4 - Textures2
 +RETEXTURE - Fallout4 - Textures1
 -Fallout4 - Textures - Milky Way
--Fallout 4 Resound Project - Guns
 +Fallout 4 Particle Patch - No More Glowing Objects
 -Fabulous Fire Extinguisher (Replacer) textures
 -off F4SE Fix Automatron Headlight and ShockClaw effects UFO4P
@@ -949,7 +953,6 @@
 -Companion Inventory Weight
 -ClickLight - Highlight Objects Clicked in Console (FO4)
 -CleanVATS - VATS Green Tint Remover
-+Classic UI HUD Sounds
 +Better Notes
 +F4SE Better Console
 -Baka Power Armor HUD
@@ -988,7 +991,6 @@
 -Enhanced Vanilla Bodies Body - Female
 -Strength in Steel - Brotherhood T60 Overhaul
 +Ultimate Outfit Menu
--Muffled Voice Helmets
 -Creation Club - Gutsy Robot Backpack (edited)
 +Creation Club - Gutsy Robot Backpack
 +T-60 Equipment
@@ -1001,7 +1003,6 @@
 -Unique Power Armor Frames Old
 +Unique Power Armor Frames
 +Stealth Boy Power Armor Transition Glare Effect Removal
-+Resynched Power Armor Handling Sounds
 -Quick Change Armor by Tooun
 +Power Armor Re-Frame
 -Power Armor Materials AND Paints (PAMAP)
@@ -1030,185 +1031,3 @@
 -Alternate Hands and Feet - CBBE
 +Alana's PowerArmor - Ver 2.6
 -Armor and Clothing_separator
-*DLC: Automatron
-*DLC: Contraptions Workshop
-*DLC: Far Harbor
-*DLC: Nuka-World
-*DLC: Vault-Tec Workshop
-*DLC: Wasteland Workshop
-*Unmanaged: vchgs001fo4_ncrbeasthunter
-*Creation Club: ccacxfo4001-vsuit
-*Creation Club: ccawnfo4001-brandedattire
-*Creation Club: ccawnfo4002-factionclothing
-*Creation Club: ccbgsfo4018-gaussrifleprototype
-*Creation Club: ccbgsfo4019-chinesestealtharmor
-*Creation Club: ccbgsfo4035-pint
-*Creation Club: ccbgsfo4036-trnsdg
-*Creation Club: ccbgsfo4040-vrworkshop01
-*Creation Club: ccBGSFO4044-HellfirePowerArmor
-*Creation Club: ccbgsfo4045-advarccab
-*Creation Club: ccBGSFO4046-TesCan
-*Creation Club: ccbgsfo4047-qthund
-*Creation Club: ccbgsfo4048-dovah
-*Creation Club: ccbgsfo4049-brahminarmor
-*Creation Club: ccbgsfo4063-papat
-*Creation Club: ccBGSFO4096-AS_Enclave
-*Creation Club: ccBGSFO4110-WS_Enclave
-*Creation Club: ccBGSFO4115-X02
-*Creation Club: ccBGSFO4116-HeavyFlamer
-*Creation Club: ccbgsfo4117-capmerc
-*Creation Club: ccbgsfo4119-cyberdog
-*Creation Club: cceejfo4001-decorationpack
-*Creation Club: cceejfo4002-nuka
-*Creation Club: ccfrsfo4001-handmadeshotgun
-*Creation Club: ccfrsfo4002-antimaterielrifle
-*Creation Club: ccfrsfo4003-cr75l
-*Creation Club: ccfsvfo4001-modularmilitarybackpack
-*Creation Club: ccfsvfo4002-midcenturymodern
-*Creation Club: ccfsvfo4003-slocum
-*Creation Club: ccfsvfo4004-vrworkshopgnrplaza
-*Creation Club: ccfsvfo4005-vrdesertisland
-*Creation Club: ccfsvfo4006-vrwasteland
-*Creation Club: ccFSVFO4007-Halloween
-*Creation Club: ccgcafo4023-factionas12army
-*Creation Club: ccgcafo4024-instituteplasmaweapons
-*Creation Club: ccgcafo4025-pagunmm
-*Creation Club: ccjvdfo4001-holiday
-*Creation Club: cckgjfo4001-bastion
-*Creation Club: ccOTMFO4001-Remnants
-*Creation Club: ccqdrfo4001_powerarmorai
-*Creation Club: ccrzrfo4001-tunnelsnakes
-*Creation Club: ccrzrfo4002-disintegrate
-*Creation Club: ccsbjfo4001-solarflare
-*Creation Club: ccsbjfo4002_manwellrifle
-*Creation Club: ccSBJFO4003-Grenade
-*Creation Club: ccsbjfo4004-ion
-*Creation Club: ccswkfo4001-astronautpowerarmor
-*Creation Club: cctosfo4001-neosky
-*Creation Club: cctosfo4002_neonflats
-*Creation Club: ccvltfo4001-homes
-*Creation Club: cczsef04001-bhouse
-*Creation Club: cczsefo4002-smanor
-*Creation Club: ccbgsfo4124-poweramorskin(tribalhelmets)
-*Creation Club: ccbgsfo4001-pipboy(black)
-*Creation Club: ccbgsfo4003-pipboy(camo01)
-*Creation Club: ccbgsfo4004-pipboy(camo02)
-*Creation Club: ccbgsfo4006-pipboy(chrome)
-*Creation Club: ccbgsfo4013-piptan
-*Creation Club: ccbgsfo4014-pipboy(white)
-*Creation Club: ccbgsfo4016-prey
-*Creation Club: ccbgsfo4020-powerarmorskin(black)
-*Creation Club: ccbgsfo4022-powerarmorskin(camo01)
-*Creation Club: ccbgsfo4023-powerarmorskin(camo02)
-*Creation Club: ccbgsfo4029-powerarmorskinpink
-*Creation Club: ccbgsfo4031-powerarmorskinred
-*Creation Club: ccbgsfo4032-powerarmorskintan
-*Creation Club: ccbgsfo4033-powerarmorskinwhite
-*Creation Club: ccbgsfo4038-horsearmor
-*Creation Club: ccbgsfo4056-dglabb
-*Creation Club: ccbgsfo4072-pipgrog
-*Creation Club: ccbgsfo4077-piprocket
-*Creation Club: ccgcafo4002-factionws02acat
-*Creation Club: ccgcafo4004-factionws04gun
-*Creation Club: ccgcafo4008-factionws08inst
-*Creation Club: ccgcafo4011-factionws11vt
-*Creation Club: ccgcafo4012-factionas01acat
-*Creation Club: ccgcafo4017-factionas06inst
-*Creation Club: ccgcafo4022-factionas11vt
-*Creation Club: ccrzrfo4003-pipover
-*Creation Club: ccswkfo4002-pipnuka
-*Creation Club: ccswkfo4003-pipquan
-*Creation Club: ccbgsfo4002-pipboy(blue)
-*Creation Club: ccbgsfo4005-bluecamo
-*Creation Club: ccbgsfo4008-pipgrn
-*Creation Club: ccbgsfo4009-piporan
-*Creation Club: ccbgsfo4010-pippnk
-*Creation Club: ccbgsfo4011-pippurp
-*Creation Club: ccbgsfo4012-pipboy(red)
-*Creation Club: ccbgsfo4015-pipyell
-*Creation Club: ccbgsfo4021-powerarmorskinblue
-*Creation Club: ccbgsfo4024-pacamo03
-*Creation Club: ccbgsfo4025-powerarmorskin(chrome)
-*Creation Club: ccbgsfo4027-powerarmorskingreen
-*Creation Club: ccbgsfo4028-powerarmorskinorange
-*Creation Club: ccbgsfo4030-powerarmorskinpurple
-*Creation Club: ccbgsfo4034-powerarmorskinyellow
-*Creation Club: ccbgsfo4041-doommarinearmor
-*Creation Club: ccbgsfo4050-dgbcoll
-*Creation Club: ccbgsfo4051-dgbox
-*Creation Club: ccbgsfo4052-dgdal
-*Creation Club: ccbgsfo4053-dggoldr
-*Creation Club: ccbgsfo4054-dggreatd
-*Creation Club: ccbgsfo4055-dghusk
-*Creation Club: ccbgsfo4057-dglaby
-*Creation Club: ccbgsfo4058-dglabc
-*Creation Club: ccbgsfo4059-dgpit
-*Creation Club: ccbgsfo4060-dgrot
-*Creation Club: ccbgsfo4061-dgshiinu
-*Creation Club: ccbgsfo4062-pippat
-*Creation Club: ccbgsfo4070-pipabra
-*Creation Club: ccbgsfo4071-piparc
-*Creation Club: ccbgsfo4073-pipmman
-*Creation Club: ccbgsfo4074-pipinspect
-*Creation Club: ccbgsfo4075-pipshroud
-*Creation Club: ccbgsfo4076-pipmystery
-*Creation Club: ccbgsfo4078-pipreily
-*Creation Club: ccbgsfo4079-pipvim
-*Creation Club: ccbgsfo4080-pippop
-*Creation Club: ccbgsfo4081-pipphenolresin
-*Creation Club: ccbgsfo4082-pipprc
-*Creation Club: ccbgsfo4083-pipartdeco
-*Creation Club: ccbgsfo4084-pipretro
-*Creation Club: ccbgsfo4085-piphawaii
-*Creation Club: ccbgsfo4086-pipadventure
-*Creation Club: ccbgsfo4087-piphaida
-*Creation Club: ccbgsfo4089-pipsynthwave
-*Creation Club: ccbgsfo4090-piptribal
-*Creation Club: ccbgsfo4091-as_bats
-*Creation Club: ccbgsfo4092-as_camoblue
-*Creation Club: ccbgsfo4093-as_camogreen
-*Creation Club: ccbgsfo4094-as_camotan
-*Creation Club: ccbgsfo4095-as_childrenofatom
-*Creation Club: ccbgsfo4097-as_jack-olantern
-*Creation Club: ccbgsfo4098-as_pickman
-*Creation Club: ccbgsfo4099-as_reillysrangers
-*Creation Club: ccbgsfo4101-as_shi
-*Creation Club: ccbgsfo4103-as_tunnelsnakes
-*Creation Club: ccbgsfo4104-ws_bats
-*Creation Club: ccbgsfo4105-ws_camoblue
-*Creation Club: ccbgsfo4106-ws_camogreen
-*Creation Club: ccbgsfo4107-ws_camotan
-*Creation Club: ccbgsfo4108-ws_childrenofatom
-*Creation Club: ccbgsfo4111-ws_jack-olantern
-*Creation Club: ccbgsfo4112-ws_pickman
-*Creation Club: ccbgsfo4113-ws_reillysrangers
-*Creation Club: ccbgsfo4114-ws_shi
-*Creation Club: ccbgsfo4118-ws_tunnelsnakes
-*Creation Club: ccbgsfo4120-poweramorskin(pittraider)
-*Creation Club: ccbgsfo4121-poweramorskin(airforce)
-*Creation Club: ccbgsfo4122-poweramorskin(scorchedsierra)
-*Creation Club: ccbgsfo4123-poweramorskin(inferno)
-*Creation Club: cccrsfo4001-pipcoa
-*Creation Club: ccgcafo4001-factionws01army
-*Creation Club: ccgcafo4003-factionws03bos
-*Creation Club: ccgcafo4005-factionws05hrpink
-*Creation Club: ccgcafo4006-factionws06hrshark
-*Creation Club: ccgcafo4007-factionws07hrflames
-*Creation Club: ccgcafo4009-factionws09mm
-*Creation Club: ccgcafo4010-factionws10rr
-*Creation Club: ccgcafo4013-factionas02bos
-*Creation Club: ccgcafo4014-factionas03gun
-*Creation Club: ccgcafo4015-factionas04hrpink
-*Creation Club: ccgcafo4016-factionas05hrshark
-*Creation Club: ccgcafo4018-factionas07mm
-*Creation Club: ccgcafo4019-factionas08nuk
-*Creation Club: ccgcafo4020-factionas09rr
-*Creation Club: ccgcafo4021-factionas10hrflames
-*Creation Club: ccgrcfo4001-pipgreytort
-*Creation Club: ccgrcfo4002-pipgreenvim
-*Creation Club: ccrpsfo4001-scavenger
-*Creation Club: ccrzrfo4004-pipinst
-*Creation Club: ccygpfo4001-pipcruiser
-*Unmanaged: kinggathcreations_fev
-*Unmanaged: ptrfo4001_t60pistol
-*Unmanaged: ptrfo4002_vangraff
